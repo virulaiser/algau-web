@@ -1,18 +1,20 @@
 <template>
   <div>
 
-    <b-container class="ancho"   >
-    <h1 class="m-2">Directiva </h1> 
+    
+    <h1 class="m-2 text-center">Directiva </h1> 
 
-    <b-card-group deck>
-     <b-card
+    <b-container fluid class="text-center" >
+    <b-card-group deck class="m-2 text-center">
+    
+      <b-card
     title="Presidente"
     img-src="FotoJuan.jpg"
     img-alt="Image"
     img-top
     tag="article"
-    style="max-width: 20rem;"
-    class="mb-2 anch"
+ 
+    class=" anchoFoto"
   >
     <b-card-text>
       EL lic. Juan Andres Arburua
@@ -26,8 +28,8 @@
     img-alt="Image"
     img-top
     tag="article"
-    style="max-width: 20rem;"
-    class="mb-2 anch"
+ 
+    class="anchoFoto"
   >
     <b-card-text>
       EL lic. Richard Long
@@ -35,14 +37,19 @@
     <b-button href="https://www.linkedin.com/in/jos%C3%A9-ignacio-siutto-arin-a924a473/" target="_blanck" variant="primary">info</b-button>
   </b-card>
 
+</b-card-group>
+
+<b-card-group deck class="m-2">
+
+
   <b-card
     title="Secretaria"
     img-src="fotoAlejandra.jpg"
     img-alt="Image"
     img-top
     tag="article"
-    style="max-width: 20rem;"
-    class="mb-2 anch"
+ 
+    class="anch"
   >
     <b-card-text>
       Lic. Alejandra Marquez
@@ -57,7 +64,7 @@
     img-alt="Image"
     img-top
     tag="article"
-    style="max-width: 20rem;"
+    
     class="mb-2 anch"
   >
     <b-card-text>
@@ -68,6 +75,7 @@
   </b-card>
 
 </b-card-group>
+
 </b-container>
 </div>
 
@@ -82,5 +90,9 @@ export default {
 </script>
 
 <style>
- .anch {width: 156px}
+ .anch {width:8rem}
+ .anchoFoto{width:50%;}
+
+ title{width:0.6rem}
+
 </style>

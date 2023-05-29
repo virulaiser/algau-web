@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Nav/>
+    <Nav1/>
 <Nuxt/>
-    <Foot/>
+   <Foot/>
   </div>
 </template>
 
@@ -15,6 +15,6 @@ export default {
 <style>
 .colorFondo{
  background-color:#367C2B}
-
+ body {font-family:Roboto ;}
 
 </style>

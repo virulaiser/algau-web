@@ -1,20 +1,20 @@
 <template>
 <div>
-    <b-nav fluid class="colorFondo fle">
+    <b-nav fluid  class="colorFondo ">
     
          <b-nav>
-          <b-img src="logo.png" class="rounded img-thumbnail logo ms-2" alt="foto logo"></b-img>
+          <b-img src="logo.png" class="rounded img-thumbnail logo" alt="foto logo"></b-img>
          </b-nav>
 
          <b-nav-item  >
-            <b-nav-dropdown  text="Actividades"   id="dropdown"   type ="button"  class=" btn bg-secondary" >
+            <b-nav-dropdown  text="Actividades"   id="dropdown"   type ="button"  class=" btn bg-secondary mar" >
               <b-dropdown-item> <li><nuxt-link class="dropdown-item " to="/">Volver</nuxt-link></li></b-dropdown-item>
             </b-nav-dropdown>
           </b-nav-item>
 
 
     <b-nav-item >
-            <b-nav-dropdown  text="Administración"  id="dropdown-1"   type ="button"  class=" btn bg-secondary" >
+            <b-nav-dropdown  text="Administración"  id="dropdown-1"   type ="button"  class=" btn bg-secondary mar" >
             <b-dropdown-item ><li><nuxt-link class="dropdown-item" to="/directiva">Directiva</nuxt-link></li></b-dropdown-item>
             <b-dropdown-item> <li><nuxt-link class="dropdown-item " to="/">Volver</nuxt-link></li></b-dropdown-item>
      </b-nav-dropdown>
@@ -23,7 +23,7 @@
     </b-nav-item>
 
     <b-nav-item  >
-      <b-nav-dropdown  rounded="sm"  text="Carrera"   id="dropdown-2"   type ="button"  class=" btn bg-secondary" >
+      <b-nav-dropdown  rounded="sm"  text="Carrera"   id="dropdown-2"   type ="button"  class=" btn bg-secondary mar" >
       
       <b-dropdown-item> <li><nuxt-link class="dropdown-item" to="/misvis">Misión/Visión</nuxt-link></li></b-dropdown-item>
       <b-dropdown-item> <li><nuxt-link class="dropdown-item" to="/sabemos">Competencias</nuxt-link></li></b-dropdown-item>
@@ -53,24 +53,34 @@ export default {
 
 <style>
 .logo{
-  width: 80px;
-  margin:10px;
+  width: 40px;
+  margin:3 px;
 }
 
-.btn{margin-top: 10px;
+.btn{
     color:white;
     background-color: rgb(160, 173, 40); 
+    margin: 1px;
+    padding:1px;
    
-    font-size:1.5rem}
+   }
+
+   a{padding:1px}
 
 .fle{display:flex;}
 
-.h2{font-size: 2rem;
-  font-family: Roboto ;
- 
+
+
+span{
+color:White;
+ margin: 1px;
+    padding:1px;
+    font-size:0.5rem;
 }
+    dropdown{padding:1px}
 
+    b-nav-dropdown{padding:1px}
+  .mar{margin:2px;
+        padding:2px}
 
-span{font-size:1.8rem;
-color:White}
 </style>

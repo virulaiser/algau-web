@@ -1,18 +1,22 @@
 <template>
-<div class="m-4">
-   <h1 class="ms-2">Descripción de la Carrera </h1>
+ <div>
+  <b-container fluid >
 
-<p class=""><strong>Licenciatura en Gestión Agropecuaria</strong>
-    La carrera está orientada a formar profesionales capaces de participar y asesorar en el proceso de toma de decisiones implícita en la actividad agropecuaria.
+
+   <h1 class="ms-2 text-center">Descripción de la Carrera </h1>
+
+  <p><strong>Licenciatura en Gestión Agropecuaria</strong>
+    La carrera está orientada a formar profesionales capaces de participar y asesorar en el proceso de toma de decisiones implícita en la actividad agropecuaria.</p>
     
-    Las habilidades y conocimientos adquiridos, tanto en el área técnico productiva como económico financiera, le permitirán al egresado planificar, controlar y evaluar la actividad agropecuaria, orientándola a la optimización del uso de los recursos en la búsqueda de sistemas productivos sostenibles.
+    <p>Las habilidades y conocimientos adquiridos, tanto en el área técnico productiva como económico financiera, le permitirán al egresado planificar, controlar y evaluar la actividad agropecuaria, orientándola a la optimización del uso de los recursos en la búsqueda de sistemas productivos sostenibles.</p>
     
-    Con conocimientos específicos de gestión empresarial podrá asesorar en la comercialización y el marketing de los productos derivados de la actividad.
+    <p>Con conocimientos específicos de gestión empresarial podrá asesorar en la comercialización y el marketing de los productos derivados de la actividad.
     
     Su formación le permitirá desarrollar las siguientes competencias:
     
-    Colaborar en la sostenibilidad de los procesos y sistemas de producción agroalimentaria.
-    Utilizar sus conocimientos en el diagnóstico y solución de problemas de la producción agropecuaria, considerando los aspectos socioeconómicos y ambientales.
+    Colaborar en la sostenibilidad de los procesos y sistemas de producción agroalimentaria.</p>
+
+    <p>Utilizar sus conocimientos en el diagnóstico y solución de problemas de la producción agropecuaria, considerando los aspectos socioeconómicos y ambientales.
     Administrar, planificar, dirigir, controlar y evaluar la actividad de las empresas de producción y servicios agropecuarios.
     Asesorar en la comercialización y el marketing de los productos agroalimentarios derivados de la actividad de las empresas agropecuarias.
     Elaborar proyectos de inversión, considerando las diferentes variables que intervienen en el proceso productivo agropecuario, agroalimentario y agroindustrial.
@@ -27,15 +31,20 @@
  <p>fuente : www.fca-ude.edu.uy/licenciatura-en-gestion-agropecuaria.php</p>
     
  <p>Plan de Estudio</p>
-
- <b-table  :items="dato1" class="table-success" :fields="tabla1"></b-table>  
-
+<b-container fluid>
+ <b-table  :items="dato1" class="table-success anchoLetra" :fields="tabla1"></b-table>  
+</b-container>
+<b-container fluid>
  <b-table  :items="dato2" class="table-success"  :fields="tabla2"></b-table>  
- 
+</b-container>
+<b-container fluid>
  <b-table  :items="dato3" class="table-success"  :fields="tabla3"></b-table>  
+</b-container>
 
+</b-container>
 
  </div>
+
 </template>
 
 <script>
@@ -76,13 +85,13 @@ export default {
           
 
         }}
-       
-  
-    
 
-
+     
 </script>
 
 <style>
+p{font-size:0.6rem;}
+h1{font-size:1.5rem}
 
+ .anchoLetra{font-size:0.8rem;}
 </style>
