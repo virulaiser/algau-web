@@ -7,7 +7,9 @@
          </b-nav>
 
          <b-nav-item  >
-            <b-nav-dropdown  text="Actividades"   id="dropdown"   type ="button"  class=" btn bg-secondary mar" >
+            <b-nav-dropdown  
+            text="Actividades"    
+             id="dropdown"   type ="button"  class=" btn bg-secondary mar" >
               <b-dropdown-item> <li><nuxt-link class="dropdown-item " to="/">Volver</nuxt-link></li></b-dropdown-item>
             </b-nav-dropdown>
           </b-nav-item>

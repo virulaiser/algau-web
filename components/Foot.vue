@@ -6,8 +6,8 @@
 
     
     
-      <b-container class="tamF">
-          <p class="text-white ">Seguinos
+      <b-container class="text-right">
+          <p class="text-white tamF" >Seguinos
         
               <a class="m-2 face" href="https://www.facebook.com/profile.php?id=100007691176464" target="_blank" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
 
@@ -57,7 +57,8 @@ name:'foot'
 .colorLetra {color:antiquewhite}
 .tamLetra{font-size:0.8rem}
 
-.tamF{font-size:1rem}
+.tamF{font-size:1.8rem;
+        }
 
 .a{ }
 </style>

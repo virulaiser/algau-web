@@ -1,23 +1,19 @@
 <template>
   <div>
-
-    
-    <h1 class="m-2 text-center">Directiva </h1> 
+    <h1 class="m-2 text-center">Directiva </h1>
 
     <b-container fluid class="text-center" >
     <b-card-group deck class="m-2 text-center">
-    
-      <b-card
+    <b-card
     title="Presidente"
     img-src="FotoJuan.jpg"
     img-alt="Image"
     img-top
     tag="article"
- 
     class=" anchoFoto"
-  >
+    >
     <b-card-text>
-      EL lic. Juan Andres Arburua
+      Lic. Juan Andres Arburua
     </b-card-text>
     <b-button href="https://www.linkedin.com/in/juan-andres-arburua-34263b110/" target="_blanck" variant="primary">info</b-button>
   </b-card>
@@ -28,16 +24,14 @@
     img-alt="Image"
     img-top
     tag="article"
- 
     class="anchoFoto"
   >
     <b-card-text>
-      EL lic. Richard Long
+       Lic. Richard Long
     </b-card-text>
     <b-button href="https://www.linkedin.com/in/jos%C3%A9-ignacio-siutto-arin-a924a473/" target="_blanck" variant="primary">info</b-button>
-  </b-card>
-
-</b-card-group>
+   </b-card>
+   </b-card-group>
 
 <b-card-group deck class="m-2">
 
@@ -48,9 +42,8 @@
     img-alt="Image"
     img-top
     tag="article"
- 
-    class="anch"
-  >
+    class="anchoFoto"
+    >
     <b-card-text>
       Lic. Alejandra Marquez
     </b-card-text>
@@ -64,29 +57,21 @@
     img-alt="Image"
     img-top
     tag="article"
-    
-    class="mb-2 anch"
-  >
+    class=" anchoFoto"
+    >
     <b-card-text>
       Lic. Jose Ig. Siutto
     </b-card-text>
 
     <b-button href="https://www.linkedin.com/in/jos%C3%A9-ignacio-siutto-arin-a924a473/" target="_blanck" variant="primary">info</b-button>
   </b-card>
-
-</b-card-group>
-
-</b-container>
+  </b-card-group>
+  </b-container>
 </div>
-
-
 </template>
 
 <script>
-export default {
-
- 
-}
+export default {}
 </script>
 
 <style>
