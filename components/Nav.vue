@@ -4,11 +4,7 @@
      <b-nav>
        <b-img src="logo.png" class="rounded img-thumbnail logo" alt="foto logo"></b-img>
     </b-nav>
-    <b-nav>
-      <template #button-content>
-            <em>ALGAU</em>
-      </template>
-    </b-nav>
+   
 
 
     <b-navbar-toggle target="nav-collapse">
@@ -72,5 +68,6 @@ export default {
 </script>
 
 <style>
+img{width:4rem}
 .tam{font-size:0.7rem;}
 </style>

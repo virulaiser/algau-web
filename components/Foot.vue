@@ -57,8 +57,8 @@ name:'foot'
 .colorLetra {color:antiquewhite}
 .tamLetra{font-size:0.8rem}
 
-.tamF{font-size:1.8rem;
+.tamF{font-size:1.43rem;
         }
 
-.a{ }
+
 </style>
